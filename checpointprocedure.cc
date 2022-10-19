@@ -1,10 +1,8 @@
- add_num(num:INTEGER) // num is the local variable for the procedure
 
-BEgIN
   PROCEDURE produit_scalair(var t1,var t2) : reel
-              }
-     : integer                   { variable indice de boucle pour        }
-          ps : float                   { variable cumul resultat               }
+              
+     : integer                   
+          ps : float                  
  
    for i in 0 to N-1 do
      ps := ps + t1[i]*t2[i];
@@ -32,9 +30,9 @@ BEGIN
 END.
 
   fonction produit scalair(t1,t2) : reel
-              }
-     : integer                   { variable indice de boucle pour        }
-          ps : float                   { variable cumul resultat               }
+              
+     : integer                  
+          ps : float                   
    ps := 0.0;
    for i in 0 to N-1 do
      ps := ps + t1[i]*t2[i];
